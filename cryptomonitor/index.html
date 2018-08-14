@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Crypto Monitor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+  </head>
+
+  <body>
+
+    <div class="ui left fixed vertical menu">
+  <div class="item">
+    <img class="image" src="https://cdn.dribbble.com/users/28449/screenshots/1040285/cap-logo-ideas3_1x.png">
+  </div>
+  <a class="item">Dashboard</a>
+  </div>
+
+
+  <div class="ui orange center aligned raised segment">
+  <img src="https://s2.coinmarketcap.com/static/img/coins/16x16/1.png"> <p>Current Bitcoin Price:</p>
+  <h3 id="btc" style="color:green">Loading Price...</h3>
+  <script type="text/javascript" src="btc.js"></script>
+  </div>
+
+
+
+  <div class="ui blue center aligned raised segment">
+  <img src="https://s2.coinmarketcap.com/static/img/coins/16x16/1027.png"> <p>Current Ethereum Price:</p>
+  <h3 id="eth" style="color:green">Loading Price...</h3>
+  <script type="text/javascript" src="eth.js"></script>
+  </div>
+
+
+
+  <div class="ui black center aligned raised segment">
+  <img src="https://s2.coinmarketcap.com/static/img/coins/16x16/52.png">
+  <p>Current XRP Price:</p>
+  <h3 id="xrpc" style="color:green">Loading Price...</h3>
+  <script type="text/javascript" src="xrp.js"></script>
+  </div>
+
+
+
+  <div class="ui yellow center aligned raised segment">
+  <img src="https://s2.coinmarketcap.com/static/img/coins/16x16/328.png">
+  <p>Current Monero Price:</p>
+  <h3 id="monero" style="color:green">Loading Price...</h3>
+  <script type="text/javascript" src="monero.js"></script>
+  </div>
+
+
+
+  <div class="ui black center aligned raised segment">
+  <img src="https://s2.coinmarketcap.com/static/img/coins/16x16/2.png">
+  <p>Current Litecoin Price:</p>
+  <h3 id="litecoin" style="color:green">Loading Price...</h3>
+  <script type="text/javascript" src="litecoin.js"></script>
+  </div>
+
+
+<style type="text/css">
+body {
+overflow:hidden;
+}
+</style>
+
+
+
+
+</body>
+</html>

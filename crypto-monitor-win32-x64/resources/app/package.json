@@ -1,0 +1,15 @@
+{
+  "name": "crypto-monitor",
+  "version": "1.0.0",
+  "description": "Monitors several crypto currencys.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Jason Dos Santos",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "electron": "^2.0.7"
+  }
+}
