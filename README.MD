@@ -1,6 +1,6 @@
 # Crypto-Monitor
 
-![](https://i.imgur.com/ibC8RPz.png)
+![](https://i.imgur.com/OLB2X4T.png)
 
 Monitors several crypto currencies and updates prices frequently.
 
